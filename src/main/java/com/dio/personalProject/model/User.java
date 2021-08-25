@@ -38,7 +38,7 @@ public class User {
     private UserCategory userCategory;
 
     @ManyToOne
-    private com.dio.accesscontrolapi.model.Company company;
+    private com.dio.personalProject.model.Company company;
 
     @ManyToOne
     private AccessLevel accessLevel;
