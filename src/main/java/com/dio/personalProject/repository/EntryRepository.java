@@ -1,6 +1,6 @@
 package com.dio.personalProject.repository;
 
-import com.dio.accesscontrolapi.model.Entry;
+import com.dio.personalProject.model.Entry;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
