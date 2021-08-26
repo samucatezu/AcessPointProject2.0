@@ -1,7 +1,7 @@
 package com.dio.personalProject.Controller;
 
-import com.dio.accesscontrolapi.model.Entry;
-import com.dio.accesscontrolapi.service.EntryService;
+import com.dio.personalProject.model.Entry;
+import com.dio.personalProject.service.EntryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -18,7 +18,7 @@ public class SwaggerConfig {
     public Docket apiAdmin(){
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.dio.accesscontrolapi"))
+                .apis(RequestHandlerSelectors.basePackage("com.dio.personalProject"))
                 .paths(PathSelectors.ant("/**"))
                 .build()
                 .apiInfo(apiInfo());
